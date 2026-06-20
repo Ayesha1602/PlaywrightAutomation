@@ -1,0 +1,317 @@
+- generic [active] [ref=e1]:
+  - link "Skip to content" [ref=e2] [cursor=pointer]:
+    - /url: "#content"
+  - banner "Site" [ref=e3]:
+    - generic [ref=e4]:
+      - generic [ref=e5]:
+        - paragraph [ref=e6]:
+          - link "SQA Tools" [ref=e7] [cursor=pointer]:
+            - /url: https://sqatools.in/
+        - paragraph [ref=e8]:
+          - text: Online Learning Platform
+          - link "Educational Software" [ref=e9] [cursor=pointer]:
+            - img [ref=e11]
+            - text: Educational Software
+      - navigation "Primary" [ref=e13]:
+        - list [ref=e16]:
+          - listitem [ref=e17]:
+            - link "Home" [ref=e18] [cursor=pointer]:
+              - /url: https://sqatools.in/
+          - listitem [ref=e19]:
+            - link "Courses" [ref=e20] [cursor=pointer]:
+              - /url: https://sqatools.in/course/
+              - text: Courses
+              - img [ref=e22]
+            - list:
+              - listitem:
+                - link "Robot Framework Automation":
+                  - /url: https://sqatools.in/robotframework-course/
+          - listitem [ref=e24]:
+            - link "Tutorials" [ref=e25] [cursor=pointer]:
+              - /url: https://sqatools.in/python-tutorials/
+              - text: Tutorials
+              - img [ref=e27]
+            - list:
+              - listitem:
+                - link "Python Tutorials":
+                  - /url: https://sqatools.in/python-tutorials/
+              - listitem:
+                - link "Python Selenium Tutorials":
+                  - /url: https://sqatools.in/python-selenium-tutorials/
+              - listitem:
+                - link "SQL Tutorial":
+                  - /url: https://sqatools.in/sql-tutorial/
+              - listitem:
+                - link "Python MCQ":
+                  - /url: https://sqatools.in/python-mcq-questions/
+          - listitem [ref=e29]:
+            - link "Python Practice Exercises" [ref=e30] [cursor=pointer]:
+              - /url: https://sqatools.in/python-practice-exercises/
+              - text: Python Practice Exercises
+              - img [ref=e32]
+            - list:
+              - listitem:
+                - link "Python Basic Programs":
+                  - /url: https://sqatools.in/python-basic-programs/
+              - listitem:
+                - link "Python If Else Programs":
+                  - /url: https://sqatools.in/python-if-else-practice-programs/
+              - listitem:
+                - link "Python Loops Programs":
+                  - /url: https://sqatools.in/python-loops-programs/
+              - listitem:
+                - link "Python String Programs":
+                  - /url: https://sqatools.in/python-string-programs-exercises-examples/
+              - listitem:
+                - link "Python List Programs":
+                  - /url: https://sqatools.in/python-list-programs/
+              - listitem:
+                - link "Python Tuple Programs":
+                  - /url: https://sqatools.in/python-tuple-programs/
+              - listitem:
+                - link "Python Dictionary Programs":
+                  - /url: https://sqatools.in/python-dictionary-programs/
+              - listitem:
+                - link "Python Set Programs":
+                  - /url: https://sqatools.in/python-set-programs-exercises/
+              - listitem:
+                - link "Python Functional Programs":
+                  - /url: https://sqatools.in/python-function-programs/
+              - listitem:
+                - link "Python File Handling Programs":
+                  - /url: https://sqatools.in/python-file-handling-programs/
+              - listitem:
+                - link "Python OS Module Programs":
+                  - /url: https://sqatools.in/python-os-module-programs-exercises/
+              - listitem:
+                - link "Python OOPS Programs":
+                  - /url: https://sqatools.in/python-oops-programs-for-practice/
+              - listitem:
+                - link "Python Numpy Programs":
+                  - /url: https://sqatools.in/python-numpy-programs-exercises/
+              - listitem:
+                - link "Python Pandas Programs":
+                  - /url: https://sqatools.in/python-pandas-programs-exercises/
+          - listitem [ref=e34]:
+            - link "Blogs" [ref=e35] [cursor=pointer]:
+              - /url: https://sqatools.in/blogs/
+      - generic:
+        - complementary:
+          - insertion
+  - generic [ref=e36]:
+    - main [ref=e39]:
+      - article [ref=e40]:
+        - generic [ref=e41]:
+          - heading "Dummy Booking Website" [level=1] [ref=e43]
+          - generic [ref=e44]:
+            - paragraph [ref=e45]: Dummy ticket websites provide different web elements to do the automation
+            - list [ref=e46]:
+              - listitem [ref=e47]:
+                - link "Login Page" [ref=e48] [cursor=pointer]:
+                  - /url: https://sqatools.in/login-page/
+            - heading "Dummy Ticket Booking Website" [level=1] [ref=e49]
+            - heading "Choose the correct option:" [level=3] [ref=e50]
+            - list [ref=e52]:
+              - listitem [ref=e53]:
+                - radio [ref=e54]
+                - text: Dummy ticket for visa application – $200
+              - listitem [ref=e55]:
+                - radio [ref=e56]
+                - text: Dummy return ticket – $300
+              - listitem [ref=e57]:
+                - radio [ref=e58]
+                - text: Dummy hotel booking ticket – $400
+              - listitem [ref=e59]:
+                - radio [ref=e60]
+                - text: Dummy hotel and flight booking – $500
+              - listitem [ref=e61]:
+                - radio [ref=e62]
+                - text: Cab booking and return date – $600
+            - generic [ref=e63]:
+              - heading "Passenger Details" [level=2] [ref=e64]
+              - generic [ref=e65]:
+                - text: First Name
+                - textbox [ref=e66]
+              - text: Last Name
+              - textbox [ref=e67]
+            - text: Date of birth*
+            - textbox [ref=e69]
+            - text: Sex*
+            - radio [ref=e70]
+            - text: Male
+            - radio [ref=e71]
+            - text: Female
+          - heading "Number of Additional Passangers" [level=3] [ref=e72]
+          - combobox [ref=e73]:
+            - option "I’m the only one traveler" [selected]
+            - option "Add 1 more passenger (100%)"
+            - option "Add 2 more passenger (200%)"
+            - option "Add 3 more passenger (200%)"
+          - heading "Travel Details" [level=2] [ref=e74]
+          - generic [ref=e75]:
+            - radio [ref=e76]
+            - text: One Way
+            - radio [ref=e77]
+            - text: Round Trip
+            - link "Travel & Transportation" [ref=e78] [cursor=pointer]:
+              - img [ref=e80]
+              - text: Travel & Transportation
+          - generic [ref=e82]: From City Destination City
+          - generic [ref=e83]:
+            - textbox [ref=e84]
+            - textbox [ref=e85]
+          - generic [ref=e86]: Departure Date Return Date
+          - generic [ref=e87]:
+            - textbox [ref=e88]
+            - textbox [ref=e89]
+          - heading "Delivery Option" [level=2] [ref=e90]
+          - text: Visa interview/ appointment date(optional)
+          - textbox [ref=e91]
+          - generic [ref=e92]: How will you like to receive the dummy ticket(optional)
+          - generic [ref=e93]:
+            - radio [ref=e94]
+            - text: Email
+            - radio [ref=e95]
+            - text: WhatsApp
+            - radio [ref=e96]
+            - text: Both
+          - heading "Billing Details" [level=2] [ref=e97]
+          - generic [ref=e98]:
+            - generic [ref=e99]: Biling Name*
+            - textbox [ref=e100]
+            - generic [ref=e101]: Phone*
+            - textbox [ref=e102]
+            - generic [ref=e103]: Email address*
+            - textbox [ref=e104]
+            - generic [ref=e105]: Street address*
+            - textbox [ref=e106]
+            - generic [ref=e107]: Country*
+            - combobox [ref=e108]:
+              - option "Afghanistan" [selected]
+              - option "Åland Islands"
+              - option "Algeria"
+              - option "American Samoa"
+              - option "Andorra"
+              - option "Angola"
+              - option "Anguilla"
+              - option "Antarctica"
+              - option "Antigua and Barbuda"
+              - option "Bangladesh"
+              - option "Barbados"
+              - option "Belarus"
+              - option "India"
+              - option "United Kingdom"
+            - generic [ref=e109]:
+              - generic [ref=e110]: Postcode / ZIP*
+              - generic [ref=e111]: Prefecture
+            - generic [ref=e112]:
+              - textbox [ref=e113]
+              - textbox [ref=e114]
+            - generic [ref=e115]: Street address*
+            - textbox [ref=e116]
+            - textbox [ref=e117]
+          - heading "Most Visited Cities" [level=2] [ref=e118]
+          - table [ref=e119]:
+            - rowgroup [ref=e120]:
+              - row "Select Option City ID City Name Passengers" [ref=e121]:
+                - columnheader "Select Option" [ref=e122]
+                - columnheader "City ID" [ref=e123]
+                - columnheader "City Name" [ref=e124]
+                - columnheader "Passengers" [ref=e125]
+              - row "6001 Mumbai 1033" [ref=e126]:
+                - cell [ref=e127]:
+                  - checkbox [ref=e128]
+                - cell "6001" [ref=e129]
+                - cell "Mumbai" [ref=e130]
+                - cell "1033" [ref=e131]
+              - row "6002 Pune 2002" [ref=e132]:
+                - cell [ref=e133]:
+                  - checkbox [ref=e134]
+                - cell "6002" [ref=e135]
+                - cell "Pune" [ref=e136]
+                - cell "2002" [ref=e137]
+              - row "6003 Indore 3000" [ref=e138]:
+                - cell [ref=e139]:
+                  - checkbox [ref=e140]
+                - cell "6003" [ref=e141]
+                - cell "Indore" [ref=e142]
+                - cell "3000" [ref=e143]
+              - row "6004 Kolkata 5000" [ref=e144]:
+                - cell [ref=e145]:
+                  - checkbox [ref=e146]
+                - cell "6004" [ref=e147]
+                - cell "Kolkata" [ref=e148]
+                - cell "5000" [ref=e149]
+              - row "6005 Hyderabad 6000" [ref=e150]:
+                - cell [ref=e151]:
+                  - checkbox [ref=e152]
+                - cell "6005" [ref=e153]
+                - cell "Hyderabad" [ref=e154]
+                - cell "6000" [ref=e155]
+              - row "6006 Orangabad 3456" [ref=e156]:
+                - cell [ref=e157]:
+                  - checkbox [ref=e158]
+                - cell "6006" [ref=e159]
+                - cell "Orangabad" [ref=e160]
+                - cell "3456" [ref=e161]
+              - row "6007 Delhi 5666" [ref=e162]:
+                - cell [ref=e163]:
+                  - checkbox [ref=e164]
+                - cell "6007" [ref=e165]
+                - cell "Delhi" [ref=e166]
+                - cell "5666" [ref=e167]
+    - insertion [ref=e169]
+    - complementary [ref=e173]:
+      - list [ref=e174]:
+        - listitem [ref=e175]:
+          - link "Playwright Read .env File and Use Environment Variables" [ref=e176] [cursor=pointer]:
+            - /url: https://sqatools.in/playwright-read-env-file-and-use-environment-variables/
+        - listitem [ref=e177]:
+          - link "TypeScript OOPs Practice Questions with Explanations" [ref=e178] [cursor=pointer]:
+            - /url: https://sqatools.in/typescript-oops-practice/
+        - listitem [ref=e179]:
+          - link "Step-by-Step Guide to Use Playwright Annotations" [ref=e180] [cursor=pointer]:
+            - /url: https://sqatools.in/step-by-step-guide-to-use-playwright-annotations/
+        - listitem [ref=e181]:
+          - link "AI-Specific Interview Questions and Answers for Software QA Professionals" [ref=e182] [cursor=pointer]:
+            - /url: https://sqatools.in/ai-specific-interview-questions-and-answers/
+        - listitem [ref=e183]:
+          - link "AI Tools for QA Engineers" [ref=e184] [cursor=pointer]:
+            - /url: https://sqatools.in/ai-tools-for-qa-engineers/
+  - insertion [ref=e186]
+  - contentinfo "Site" [ref=e189]:
+    - generic [ref=e190]:
+      - generic [ref=e191]:
+        - complementary
+        - complementary [ref=e192]:
+          - separator [ref=e193]
+        - complementary [ref=e194]:
+          - list [ref=e195]:
+            - listitem [ref=e196]:
+              - link "Automation Practice Page" [ref=e197] [cursor=pointer]:
+                - /url: https://sqatools.in/automation-practice-page/
+            - listitem [ref=e198]:
+              - link "Dummy Booking Website" [ref=e199] [cursor=pointer]:
+                - /url: https://sqatools.in/dummy-booking-website/
+            - listitem [ref=e200]:
+              - link "Login Page" [ref=e201] [cursor=pointer]:
+                - /url: https://sqatools.in/login-page/
+      - generic [ref=e202]:
+        - text: © 2026 SQA Tools • Built with
+        - link "GeneratePress" [ref=e203] [cursor=pointer]:
+          - /url: https://generatepress.com
+  - button "Scroll back to top" [ref=e204] [cursor=pointer]:
+    - img [ref=e206]
+  - insertion [ref=e209]
+  - insertion [ref=e211]:
+    - iframe [ref=e214]:
+      - iframe [ref=f5e1]:
+        - generic [ref=f7e2]:
+          - link "Advertisement" [ref=f7e4] [cursor=pointer]:
+            - /url: https://ad.doubleclick.net/pcs/click?xai=AKAOjsuw2lRfMgmzhz9-o_81J5GLTjzAMxwy736NeX94fy1rax1vlXxyI5PEKCT28NP47p9ZZz4La23BxXU56x8sw4l51LIzgfvbV6Ou6FmGYasbRvKtN-9VJV2RUg4Q8qhSBRsVL1-KmeiIzB0hOibxzpPCpvBYeXftWOtrEOri-fvLcrbtVBCBtI6Ji3SYyZ_ud5tKG4YxmBuiWen2wU6E63hNt8cQUBoKN0ts4kcOY3SgC1gf9DoOl3_GU7XMtKGeHY6IwMcZ8kMqTilUGSVevk-Wikuk6UBdn5aniyEzFO1nEx35CY4dx4Tlg4ACbCqhJ4PbmW-yKvuNpGCOtLCbhpvBCJ439MQFiU4wwByJHj3QMuv_7FPc-KBOtmW_z2ADnnrPr297YRCrkG-S7h7XLyt_zTCVOtd-DnBt3doiKMp-dXtbS6-AX16qnAnKW6wVPqMKhTc4IUWonXfpYAAo7KUUH6M5tR_QV-EHZ7DYmTWZEmY3wVy7lq3fF3uhjIkZd1uzQIWuQ7sXSlnz1FUwPVyxAEdyUY26_hs8R3YECvXCOBM-BOgte9k3Dv9fEO4xvCIojO6QRP-qGNEJcx08dH4oVZYF9_vJ3iilIThLWi_0etH_MHNkAgJMj9aeYBhEwpM4E6tLhte04QoywFl4lf73jndH0U3hEAsOQas-udiM2sNfIOkjY5X3jqBFlpF-aJpJK8-C5qdPrA8Z83vRQ2DFSxhasfUg-G0uhRNTNK4scnl8JaNtj1Ox4OPFfSws0TyMnVGjX9bMH5AgBPfjTi8GDknWJror8ALQZ9oDrjKYQUU6_YucnxfZrts9HYpfQMu9tWmzA6sftIV92v4FNrgLfc3f3QuMTjT2BdvpLZY3OryTeunVDkQu2n61exxL7dGdUpSPuDz32P1T9XJiCgWDhwxGDttC7NBu24MOgrP2c5SqDv4qYOqBTr7pfIETb39Sq7ggW37K4FEVg3QyTvE3x8wvl2X4SrBHQyws4C4gcPUd_eam6qHqJVurgFxU_p97P5PqdF5Pj6_thYnlXerMBY8Qqx4TNhankqMBrmipgrFp4gkfyA0tZFpaW1V35ir_AmQ2GqK7I_3esPm-oaywRf7uIBHJy2b3ZFeuM1W0JmDI6MabxQoQYLpu4x8iy3RuM9EYKgFCdCAB7xBH0-QjKeQ3-VrwefUS395Sa1i2rW-Go2Xt72iQQZeRAjB_nqaPYtLURGyqbmSB6E_vpMTBKu23V-6H7cKNEyMVa5ygSPMPJHlmkajujKE-im0BTBDTXADRf_07kP7NGvc2W7lpZ-gdF-byt_pGlHkgIXutPlEQmU29daQVZR4wmsFU0BEdsoC-UtBVz67GfSOgo9JhUsezJ0pw2VVfzo3izwuootoXXBw1mvjqvEkW1NWA61n7vYSKaN6kK_QSf_jO1Br6p9M6X2rkOgF1NHhdCA8t6BIJ0N8IQKnds8dV9KlBmGBTm4Lkmf0nj4yjlB-RayO9EZTNiWfVgOZ1GOGmM0QlnMCfHStTZrRUTePmLDjH349QrinKdLaGI44zlfdnhFs9HFfv-pqKdBxlMj1abyLaG4IhMBJNNx0E1B45RABY6X5ewpsepcSBUvBbeDxinHv6SYXDCh4fcnHP6yTWyxvGxKAdoPjKcvrjTONG3c64ghD1ysN3AttbTS623voe3EjnMZDVrD2K3Rd6ABY&sai=AMfl-YS6Vqb5BC6lAV5XGoCtCp6w_omYAtQC6G0M0twahHiBOXj499FwMNTQ3VMcPyhzad52HU0CLS608zU8VqtV0zJhatkZLciWohf6SG22KBTAWPvZeeuniOxI9eIIaTa2YYY0DuIU1-6x6bUSHgn2dh0Jg909pJuymFrXpUxsIuUSFr6mamVFIf8D8dBLNW1GYWBLDMsbc3OlqztCG3z9ETE66hqhSpeVHTE12ToFmNOR0kb2c0gez9EFPWzt5OdPrH69fHVSfw0jXxKePMdy0mpBx8b6sHl6YT7dYGkxGgRsNGnEPd2vPMKRQVe3MP_qGRi7ZDg1swS4PTaffd5GNTkF3dOsUwZq2CavAenbSmlZvaf3s6K4ovxV6TPi81rEwhDLQyVFKRKnKBpMQnNJ3BfC1qNshGgblIQytlIpXgzfS5QSXHq4bAqiVwxyxwj83zaz4RqhPwpGULW65dl68lEvJToJ6kxDTrRM2B4-pm86NSo2LVF3BD4QpGvvXf6Xd7lbr7qJUVpL5hVkJWULkx8QnvmvWor3mSngKJCvtywWPE9ugVSrFc6KPhmYxArzDysDi2oiHVnSjUm184eZR9ZtX3MGWLwcfr5ZajGtbzVGxsHXDkUurlIvnCS9zeSYJmr7KYqsFZZrbd1Khm0Se5FmfkkZ7OIXj8cWXuYlxh5m8zfebBXjvvzsJ8MY3b4JVpoLK_uQB5qcwaE_D_w3nw-BF5CJANsBiitVeoJQGGMWWcs4N5lJ54hb9e8WIwVSSXlvG4Am4LmWl1DxaL9jV3_YYdDcuXQ-vjYDoPPsNXsTj8H-tkl2USvYQxvjrH4MqbQ3cn_Y-0eGbKSy_sj_CZCv4X2wcmKE0VAasaWddCaUXxOD0mh_fjPIA_VqTvwUfqQm-leA8p2OfpxK2R65DdTTM1-obO4K6TzRi9jBkTEXCgL4gc01DJkCtAEBh7wMnpJZ8-DwxDnRSHCWJI73VPZcHPtQ2pG0EdC71eMryfY&sig=Cg0ArKJSzK9OBQzVotRo&fbs_aeid=%5Bgw_fbsaeid%5D&crd=aHR0cHM6Ly81NTUuY28uaWw&urlfix=1&adurl=https://www.555.co.il/landingpage/travel/proposal.html%3Futm_source%3DDV360%26utm_medium%3Dcpm%26utm_campaign%3DIDI_555_-_CA_travel555_DV360_Awa_-_pd_6-2026_-_-_3MD11750-1-168%26utm_content%3DV2V2%26dclid%3D%25edclid!%26gad_source%3D7%26gad_campaignid%3D23946422609
+            - img "Advertisement" [ref=f7e5]
+          - generic [ref=f7e6]:
+            - generic:
+              - img [ref=f7e10] [cursor=pointer]
+              - button [ref=f7e12] [cursor=pointer]:
+                - img [ref=f7e13]

@@ -1,0 +1,16 @@
+[     474ms] Unexpected token '{'
+[     444ms] [WARNING] A parser-blocking, cross site (i.e. different eTLD+1) script, https://multileaguebookstore.com/bcb0a21ea38c4c72f90bfdef402436d4/invoke.js, is invoked via document.write. The network request for this script MAY be blocked by the browser in this or a future page load due to poor network connectivity. If blocked in this page load, it will be confirmed in a subsequent console message. See https://www.chromestatus.com/feature/5718547946799104 for more details. @ https://sqatools.in/dummy-booking-website/:667
+[     449ms] [WARNING] A parser-blocking, cross site (i.e. different eTLD+1) script, https://multileaguebookstore.com/bcb0a21ea38c4c72f90bfdef402436d4/invoke.js, is invoked via document.write. The network request for this script MAY be blocked by the browser in this or a future page load due to poor network connectivity. If blocked in this page load, it will be confirmed in a subsequent console message. See https://www.chromestatus.com/feature/5718547946799104 for more details. @ https://sqatools.in/dummy-booking-website/:667
+[     903ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://multileaguebookstore.com/bcb0a21ea38c4c72f90bfdef402436d4/invoke.js:0
+[     917ms] TagError: adsbygoogle.push() error: No slot size for availableWidth=0
+    at Ko (https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8051022430972699:161:314)
+    at Jo (https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8051022430972699:160:134)
+    at Ro (https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8051022430972699:164:172)
+    at Zo (https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8051022430972699:181:15)
+    at ap (https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8051022430972699:182:321)
+    at lr (https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8051022430972699:230:98)
+    at g.client (https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8051022430972699:220:45)
+    at Qj.g (https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8051022430972699:79:545)
+    at Xj (https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8051022430972699:80:706)
+    at gr (https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8051022430972699:220:33)
+[    2143ms] [LOG] [LiteSpeed] Start Lazy Load @ https://sqatools.in/dummy-booking-website/:777

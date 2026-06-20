@@ -1,0 +1,18 @@
+[    1060ms] Unexpected token '{'
+[    1287ms] [WARNING] A parser-blocking, cross site (i.e. different eTLD+1) script, https://multileaguebookstore.com/bcb0a21ea38c4c72f90bfdef402436d4/invoke.js, is invoked via document.write. The network request for this script MAY be blocked by the browser in this or a future page load due to poor network connectivity. If blocked in this page load, it will be confirmed in a subsequent console message. See https://www.chromestatus.com/feature/5718547946799104 for more details. @ https://sqatools.in/dummy-booking-website/:667
+[    1293ms] [WARNING] A parser-blocking, cross site (i.e. different eTLD+1) script, https://multileaguebookstore.com/bcb0a21ea38c4c72f90bfdef402436d4/invoke.js, is invoked via document.write. The network request for this script MAY be blocked by the browser in this or a future page load due to poor network connectivity. If blocked in this page load, it will be confirmed in a subsequent console message. See https://www.chromestatus.com/feature/5718547946799104 for more details. @ https://sqatools.in/dummy-booking-website/:667
+[    1632ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://multileaguebookstore.com/bcb0a21ea38c4c72f90bfdef402436d4/invoke.js:0
+[    1863ms] TagError: adsbygoogle.push() error: No slot size for availableWidth=0
+    at Jo (https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8051022430972699:160:314)
+    at Io (https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8051022430972699:159:134)
+    at Qo (https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8051022430972699:163:172)
+    at Yo (https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8051022430972699:180:15)
+    at $o (https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8051022430972699:181:321)
+    at kr (https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8051022430972699:229:141)
+    at g.client (https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8051022430972699:219:45)
+    at Pj.g (https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8051022430972699:78:545)
+    at Wj (https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8051022430972699:79:706)
+    at fr (https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8051022430972699:219:33)
+[    4699ms] [ERROR] Attestation check for Attribution Reporting on https://ad.doubleclick.net failed. @ https://sqatools.in/dummy-booking-website/:0
+[    5100ms] [ERROR] Attestation check for Attribution Reporting on https://ad.doubleclick.net failed. @ https://sqatools.in/dummy-booking-website/:0
+[   26692ms] [LOG] [LiteSpeed] Start Lazy Load @ https://sqatools.in/dummy-booking-website/:777
